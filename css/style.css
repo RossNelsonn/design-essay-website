@@ -1,0 +1,189 @@
+/*--CSS RESET--*/
+
+*{
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  line-height: 1em;
+}
+
+
+
+body {
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+    margin: auto;
+    background-color: #fff;
+    color: #000;
+}
+
+p, blockquote {
+    width: 75%;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+
+/*--NAV--*/
+
+nav {
+  padding: 1em 0;
+  border-bottom: 2px solid #fe731c;
+  margin-bottom: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+
+}
+
+nav ul {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+nav a:hover {
+  border-bottom: none;
+  color: #D3D3D3;
+}
+
+/*-- TYPOGRAPHY--*/
+
+
+h1, h2, h3 {
+  font-weight: normal;
+  color: #000;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+p, li{
+  margin-bottom: 2em;
+  line-height: 1.5em;
+}
+
+h1 {font-size: 4em;
+  margin-bottom: .1em;
+  margin-top: 1em;
+}
+
+h2 {font-size: 2em;
+  margin-bottom: 1em;
+}
+
+blockquote cite {
+  font-size: .75em;
+}
+
+
+blockquote {
+    font-size: 1.75em;
+    padding: 1em;
+}
+
+blockquote p {
+    font-style: bold italic;
+    color: #fe731c;
+    padding-left: 1em;
+    margin-bottom: .3em;
+    text-indent: -0.5em;
+  }
+
+footer {
+  background-color: #fef102;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.intro {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+.anchor {
+  text-transform: uppercase;
+  font-size: .75em;
+}
+
+.leader {
+  text-transform: uppercase;
+}
+
+.bibliography {
+  background: #fe731c;
+  padding: 3em;
+  font-size: 85%;
+
+}
+
+.name {
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.icons{
+  padding-left: 35em;
+}
+
+.icons img {
+    display: inline-block;
+
+}
+
+/*--IMAGES--*/
+
+img {
+  display: block;
+  margin: 1em auto;
+  padding: 0;
+  max-width: 100%;
+}
+
+.round {
+  height: 250px;
+  width: 250px;
+}
+
+.m {
+  height: 250px;
+  width:250px;
+}
+
+.line {
+  height: 250px;
+  width: 250px;
+}
+
+caption{
+  margin-bottom: 1.5em
+  text-transform:uppercase;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image {
+  width: 100%;
+  display: block;
+}
+
+
+/*--links--*/
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  border-bottom: 1px dotted;
+}
