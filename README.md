@@ -1,2 +1,2 @@
 # design-essay-website
-[website](https://RossNelsonn.github.io/design-web-essay/index.html)
+[website](https://RossNelsonn.github.io/design-essay-website/index.html)
